@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Web Site Critiques</title>
+</head>
+
+<body>
+<h1>http://www.traderjoes.com/</h1>
+<h2>Trader Joe's</h2>
+<hr>
+<ol>
+<li>What was your first impression of this site?</li>
+
+<li>How does this site organize the flow of information? (Do they have links
+on the left and text on the right? Some other scheme? No scheme?)</li>
+
+<li>Does the site structure make sense or does it confuse you? Why?</li>
+
+<li>Does the site graphics/layout/multimedia enhance the site or detract from
+it? Why?</li>
+
+<li>How long did it take for the home page to load? Was the load time
+reasonable?</li>
+
+<li>Was the text color and size readable? If a background color or
+image was used, did it enhance or detract from the site?</li>
+
+<li>Did the site have a navigation bar or other navigation tool? Was the
+navigation well done?</li>
+
+<li>Did the site have a color scheme or look and feel that was repeated on all
+the pages?</li>
+
+<li>How does the site respond to smaller window sizes (responsive design)?</li>
+
+<li>What does this site offer that was unusual or very well done?</li>
+
+</body>
+</html>
