@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Site Color Palette - Project 3</title>
+  <style>
+    body {
+      background-color: #F4F4D3;
+      color: #222222;
+      font-family: Arial, sans-serif;
+      font-size: 100%;
+      padding: 20px;
+    }
+
+    h1, h2, h3 {
+      background-color: #FFFF00;
+      color: #000000;
+      padding: 5px;
+    }
+
+    p, blockquote, li {
+      font-size: 1em;
+    }
+
+    a:link {
+      color: #0066cc;
+    }
+
+    a:visited {
+      color: #663399;
+    }
+
+    a:hover {
+      color: #ff6600;
+    }
+
+    .swatch {
+      display: inline-block;
+      width: 150px;
+      height: 80px;
+      margin: 10px;
+      line-height: 80px;
+      font-weight: bold;
+      text-align: center;
+      border-radius: 8px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    }
+
+    .swatch.light {
+      color: #000;
+    }
+
+    .swatch.dark {
+      color: #fff;
+    }
+
+    ul {
+      margin-top: 1em;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Project 3 Color Scheme</h1>
+
+  <p>This file represents the color palette and text styles used for the Project 3 website. All styles below are based on the embedded style sheet applied to the <code>AboutUs.html</code> and <code>Tributes.html</code> pages.</p>
+
+  <h2>Color Swatches</h2>
+  <div class="swatch light" style="background-color: #F4F4D3;">#F4F4D3<br>Background</div>
+  <div class="swatch light" style="background-color: #222222;">#222222<br>Body Text</div>
+  <div class="swatch light" style="background-color: #FFFF00;">#FFFF00<br>Heading BG</div>
+  <div class="swatch light" style="background-color: #0066cc;">#0066cc<br>Link</div>
+  <div class="swatch light" style="background-color: #663399;">#663399<br>Visited</div>
+  <div class="swatch light" style="background-color: #ff6600;">#ff6600<br>Hover</div>
+
+  <h2>Text Styles Preview</h2>
+  <h3>Heading Example (h3)</h3>
+  <p>This is normal paragraph text using the body font and color.</p>
+  <blockquote>This is a blockquote styled with the body font size and color.</blockquote>
+  <ul>
+    <li>List Item 1</li>
+    <li>List Item 2</li>
+  </ul>
+  <p>
+    Example of <a href="#">a link</a>, <a href="#" onclick="return false;">a visited link</a>, and <a href="#" onmouseover="this.style.color='#ff6600'">a hover link</a>.
+  </p>
+
+</body>
+</html>
