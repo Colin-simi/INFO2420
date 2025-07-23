@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Project 6 graphics</title>
+
+<style type="text/css">
+#thumbs, #image {
+  width: 700px; 
+  border: solid 1px #000;
+  text-align: center;
+  margin: 0 auto;
+  background: #eee;
+  color: #000;
+  padding: 5px;
+}
+#thumbs {
+  margin-top: 10px;
+}
+#thumbs img {
+  border: solid 1px #000;
+  margin: 5px;
+  cursor: pointer;
+}
+#image {
+  height: 400px;
+}
+.instructions {
+  font-style: italic;
+}
+</style>
+
+</head>
+
+<body onload="preloadImages()">
+  <div>
+    <a href="#" onmouseover="document.getElementById('print').src='Images/Print2.jpg';" 
+       onmouseout="document.getElementById('print').src='Images/Print1.jpg';">
+      <img src="Images/Print1.jpg" alt="Print Page" width="200" height="50" id="print">
+    </a>
+  </div>
+
+<script>
+function preloadImages() {
+  var img1 = new Image();
+  img1.src = "Images/Print2.jpg";
+  var img2 = new Image();
+  img2.src = "Images/Logo2.jpg";
+}
+</script>
+
+<div>
+  <a href="#" onmouseover="document.getElementById('logo').src='Images/Logo2.jpg';" 
+     onmouseout="document.getElementById('logo').src='Images/Logo1.jpg';">
+    <img src="Images/Logo1.jpg" alt="Logo" id="logo">
+  </a>
+</div>
+
+
+<div id="image">
+  <img src="Images/Fullsize/CoupleSailingLg.jpg" alt="Main Image" id="mainImage">
+</div>
+<div id="thumbs">
+  <img src="Images/Thumbnail/SailingCoupleSmall.jpg" onclick="document.getElementById('mainImage').src='Images/Fullsize/CoupleSailingLg.jpg';" alt="Thumb 1">
+  <img src="Images/Thumbnail/CoupleBike2Sm.jpg" onclick="document.getElementById('mainImage').src='Images/Fullsize/CoupleBike2Lg.jpg';" alt="Thumb 2">
+  <img src="Images/Thumbnail/CoupleHikingSm.jpg" onclick="document.getElementById('mainImage').src='Images/Fullsize/CoupleHikingLg.jpg';" alt="Thumb 3">
+  <img src="Images/Thumbnail/MotorcycleSm.jpg" onclick="document.getElementById('mainImage').src='Images/Fullsize/OwnerMotorCycleLg.jpg';" alt="Thumb 4">
+</div>
+
+<img src="Images/2colback.jpg" alt="Background Preview">
+
+</body>
+</html>
