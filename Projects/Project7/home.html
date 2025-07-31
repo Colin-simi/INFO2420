@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extreme Honeymoon - Home</title>
+    <link rel="stylesheet" href="mystyles.css">
+    <script type="text/javascript" src="myscripts.js"></script>
+</head>
+<body onload="preloadImages()">
+    <div id="container">
+        <header>
+			<a href="#" onmouseover="document.getElementById('logo') .src='images/Logo2.jpg';"
+			   onmouseout="document.getElementById('logo') .src='images/Logo1.jpg';">
+			<img src="images/Logo1.jpg" alt="Logo" id="logo">
+				 </a>
+            <img src="Images/Banner.jpg" alt="Banner" id="banner">
+            <nav>
+                <a href="Home.html">Home</a>
+                <a href="AboutUs.html">About Us</a>
+                <a href="Tributes.html">Tributes</a>
+                <a href="Survey.html">Survey</a>
+                <a href="Favorites.html">Favorites</a>
+            </nav>
+        </header>
+
+        <section>
+            <article>
+                <h1>Welcome to Extreme Honeymoons!</h1>
+                <p>Welcome to Extreme Honeymoons! 
+If you are just getting hitched, we can help make your honeymoon outrageous.
+Take a look at our Excursions and take the opportunity to complete our survey.</p>
+
+                <h2>Our Featured Prints</h2>
+                <!-- Thumbnail Image Swap Section -->
+                <div class="thumbnails">
+                    <a href="#"><img src="images/Thumbnail/CoupleBike2Sm.jpg" onmouseover="swapImage('images/Fullsize/CoupleBike2Lg.jpg')" alt="Biking Couple Thumbnail"></a>
+                    <a href="#"><img src="Images/Thumbnail/CoupleHikingSm.jpg" onmouseover="swapImage('Images/Fullsize/CoupleHikingLg.jpg')" alt="Hiking Couple Thumbnail"></a>
+                </div>
+                <img id="fullsize" src="Images/Fullsize/CoupleBike2Lg.jpg" alt="Fullsize Image">
+
+                <h2>Tribute Highlight</h2>
+                <div class="mini-tribute">
+                    <img src="images/hunt2.jpg" alt="Tribute Image">
+                    <p>I'm Brian Jones. My wife Kitty and I were just married last winter. We wanted a memorable honeymoon experience, and so we looked into the excursions offered by Extreme Honeymoons. Something I always wanted to do was bow hunt. <a href="Tributes.html">more >></a></p>
+                </div>
+            </article>
+        </section>
+
+        <footer>
+            <p>Webmaster: <a href="mailto:10814782@uvu.edu">10814782@uvu.edu</a></p>
+            <p>This web site has been created solely for educational purposes.</p>
+        </footer>
+    </div>
+</body>
+</html>

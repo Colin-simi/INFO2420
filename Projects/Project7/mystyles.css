@@ -1,0 +1,225 @@
+@charset "utf-8";
+/* CSS Document */
+
+  body {
+    background-color: #F4F4D3;
+    color: #222222;
+    font-family: Arial, sans-serif;
+    font-size: 100%;
+  }
+
+  h1, h2, h3 {
+	background-color: #FFFF00
+    color: #000000;
+  }
+
+  p, blockquote, li {
+    font-size: 1em;
+  }
+
+  a:link {
+    color: #0066cc;
+  }
+
+  a:visited {
+    color: #663399;
+  }
+
+  a:hover {
+    color: #ff6600;
+  }
+
+  .float-left {
+    float: left;
+    padding: 10px;
+  }
+
+  .float-right {
+    float: right;
+    padding: 10px;
+  }
+/* ====== GENERAL RESET AND BODY STYLING ====== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background-color: #F4F4D3;
+    color: #222222;
+    font-family: Arial, sans-serif;
+    font-size: 100%;
+  }
+
+  h1, h2, h3 {
+	background-color: #FFFF00
+    color: #000000;
+  }
+
+  p, blockquote, li {
+    font-size: 1em;
+  }
+
+  a:link {
+    color: #0066cc;
+  }
+
+  a:visited {
+    color: #663399;
+  }
+
+  a:hover {
+    color: #ff6600;
+  }
+
+  .float-left {
+    float: left;
+    padding: 10px;
+  }
+
+  .float-right {
+    float: right;
+    padding: 10px;
+  }
+{
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0; /* Or use background-image if preferred */
+  color: #333;
+}
+
+/* ====== MAIN CONTAINER ====== */
+#container {
+  width: 900px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ====== HEADER ====== */
+header {
+  width: 900px;
+  height: 200px;
+  background-color: #004080;
+  color: white;
+  position: relative;
+  overflow: auto;
+  padding: 10px;
+}
+
+/* ====== LOGO & BANNER IMAGES ====== */
+#logo {
+  float: left;
+  height: 100px;
+  margin-right: 20px;
+}
+
+#banner {
+  float: left;
+  height: 100px;
+}
+
+/* ====== NAVIGATION BAR ====== */
+nav {
+  width: 30%;
+  float: right;
+  text-align: right;
+  padding-top: 20px;
+}
+
+nav a {
+  display: inline-block;
+  background-color: #ffffff;
+  color: #004080;
+  padding: 10px 15px;
+  margin: 5px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+nav a:hover {
+  background-color: #cce0ff;
+  color: #000;
+}
+
+/* ====== SECTION ====== */
+section {
+  width: 900px;
+  background-image: url('Images/backimage.jpg'); /* or backimage.png or .gif */
+  background-repeat: repeat-y;
+  padding: 20px 0;
+}
+
+/* ====== ARTICLE ====== */
+article {
+  width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+/* ====== HEADINGS AND PARAGRAPHS ====== */
+article h1, article h2 {
+  color: #004080;
+  margin-bottom: 15px;
+}
+
+article p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/* ====== THUMBNAIL SWAP SECTION ====== */
+.thumbnails {
+  margin-bottom: 20px;
+}
+
+.thumbnails img {
+  width: 120px;
+  height: auto;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+#fullsize {
+  display: block;
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  margin: 20px 0;
+}
+
+/* ====== MINI-TRIBUTE SECTION ====== */
+.mini-tribute {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.mini-tribute img {
+  width: 150px;
+  height: auto;
+}
+
+.mini-tribute p {
+  flex: 1;
+}
+
+/* ====== FOOTER ====== */
+footer {
+  width: 900px;
+  height: auto;
+  background-color: #004080;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: underline;
+}
